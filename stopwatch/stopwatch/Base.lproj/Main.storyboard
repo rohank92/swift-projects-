@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="stopwatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lad-fW-6fT">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Stopwatch" id="7BP-t5-aj5"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sCD-co-TYL">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="4Ra-Wr-rJR"/>
+                                    <constraint firstAttribute="height" constant="44" id="8lA-zh-Bbf"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="Psy-V1-O0e">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="ugB-3u-eHZ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YcT-Sd-qlc"/>
+                                    <barButtonItem systemItem="play" id="1v8-5E-FYK">
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" id="DSY-sJ-lJ6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="5IE-TN-Ajs"/>
+                                    <barButtonItem systemItem="refresh" id="pD7-cE-yIY">
+                                        <connections>
+                                            <action selector="reset:" destination="BYZ-38-t0r" id="6PM-Z0-b7y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4Ra-Wr-rJR"/>
+                                    </mask>
+                                </variation>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0 s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0a-jp-xfh">
+                                <rect key="frame" x="105" y="223" width="164" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="4Ak-6x-1SA"/>
+                                    <constraint firstAttribute="height" constant="112" id="5qL-rO-lnQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4Ak-6x-1SA"/>
+                                        <exclude reference="5qL-rO-lnQ"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862751245498657" green="0.9803922176361084" blue="0.93725496530532837" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lad-fW-6fT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="2nx-n6-pzc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lad-fW-6fT" secondAttribute="trailing" constant="-20" id="Iv4-Rh-cR0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sCD-co-TYL" secondAttribute="bottom" id="Oeb-gk-xrR"/>
+                            <constraint firstItem="Lad-fW-6fT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="gKZ-hj-Y0W"/>
+                            <constraint firstItem="T0a-jp-xfh" firstAttribute="top" secondItem="Lad-fW-6fT" secondAttribute="bottom" constant="151" id="jya-WE-3dj"/>
+                            <constraint firstItem="T0a-jp-xfh" firstAttribute="top" secondItem="Lad-fW-6fT" secondAttribute="bottom" constant="151" id="srh-cW-oQt"/>
+                            <constraint firstItem="sCD-co-TYL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="tiD-3s-DBn"/>
+                            <constraint firstItem="sCD-co-TYL" firstAttribute="top" secondItem="T0a-jp-xfh" secondAttribute="bottom" constant="288" id="ts0-XS-qp8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sCD-co-TYL" secondAttribute="trailing" constant="-20" id="u5S-un-ln8"/>
+                            <constraint firstItem="T0a-jp-xfh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yas-I6-sfg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="srh-cW-oQt"/>
+                                <exclude reference="ts0-XS-qp8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="timeLabel" destination="T0a-jp-xfh" id="2ND-Ga-nTC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188.5" y="311.5"/>
+        </scene>
+    </scenes>
+</document>
