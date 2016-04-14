@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F4E9B761CBE01CD003EE18E"
-               BuildableName = "whats the weather 1.app"
-               BlueprintName = "whats the weather 1"
-               ReferencedContainer = "container:whats the weather 1.xcodeproj">
+               BlueprintIdentifier = "4F02AFF11CBA3F1E00907757"
+               BuildableName = "Segues Example.app"
+               BlueprintName = "Segues Example"
+               ReferencedContainer = "container:Segues Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F4E9B761CBE01CD003EE18E"
-            BuildableName = "whats the weather 1.app"
-            BlueprintName = "whats the weather 1"
-            ReferencedContainer = "container:whats the weather 1.xcodeproj">
+            BlueprintIdentifier = "4F02AFF11CBA3F1E00907757"
+            BuildableName = "Segues Example.app"
+            BlueprintName = "Segues Example"
+            ReferencedContainer = "container:Segues Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F4E9B761CBE01CD003EE18E"
-            BuildableName = "whats the weather 1.app"
-            BlueprintName = "whats the weather 1"
-            ReferencedContainer = "container:whats the weather 1.xcodeproj">
+            BlueprintIdentifier = "4F02AFF11CBA3F1E00907757"
+            BuildableName = "Segues Example.app"
+            BlueprintName = "Segues Example"
+            ReferencedContainer = "container:Segues Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F4E9B761CBE01CD003EE18E"
-            BuildableName = "whats the weather 1.app"
-            BlueprintName = "whats the weather 1"
-            ReferencedContainer = "container:whats the weather 1.xcodeproj">
+            BlueprintIdentifier = "4F02AFF11CBA3F1E00907757"
+            BuildableName = "Segues Example.app"
+            BlueprintName = "Segues Example"
+            ReferencedContainer = "container:Segues Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
